@@ -1,0 +1,113 @@
+@media(max-width:1266px){
+  .login{
+    padding: 5px;
+  }
+  .busket{
+    padding: 3px;
+    margin-right: 5px;
+  }
+  .mobile{
+    margin-right: 15px;
+  }
+  .mobile-img{
+    margin-right: 5px;
+  }
+  .left-menu-list__item:first-child {
+    margin-left: 30px;
+  }
+  .left-menu-list__item{
+    margin-right: 15px;
+  }
+  .mobile-img{
+    width: 30px;
+  }
+  .busket-img {
+    width: 30px;
+  }
+  .login .login-img {
+    margin-right: 10px;
+  }
+  .login-img {
+    width: 24px;
+  }
+  img.logo{
+    width: 170px;
+    height: 70px;
+  }
+  .restaurants{
+    margin: 150px 0 70px 0;
+  }
+  .inst, .vk, .fb {
+    height: 20px;
+    width: 20px;
+  }
+  .restaurants-inner{
+    grid-template-columns: 1fr;
+  }
+  .col-2{
+    width: 100%;
+    height: 200px;
+  }
+  .rest-text{
+  }
+  .bottom-nav {
+    padding: 10px;
+}
+}
+@media(max-width:768px){
+  .street{
+    margin-top: 0;
+  }
+  .metro-img, .work-time_img, .phone-img {
+    width: 18px;
+    margin-right: 15px;
+  }
+  .slide-text {
+    padding: 5px 10px;
+  }
+  .inst, .vk, .fb {
+    height: 15px;
+    width: 15px;
+  } 
+  .white-logo{
+    width: 80px;
+  }
+  .vk{
+    margin-right: 10px;
+  }
+  .inst{
+    margin-right: 10px;
+  }
+  .btn-container {
+    margin-top: 5px;
+  }
+  .busket-img {
+    width: 30px;
+    height: 26px;
+  }
+  .login .login-img {
+    margin-right: 5px;
+  }
+  .login {
+    padding: 1px 5px;
+  } 
+  .mobile-img {
+    width: 26px;
+  }
+  img.logo {
+    height: 50px;
+  }
+  img.logo {
+    width: 140px;
+    height: 60px;
+  }
+  .top-nav{
+    padding-bottom: 10px;
+  }
+  .login-img {
+    width: 22px;
+  }
+  .restaurants {
+    margin: 100px 0 70px 0;
+}
+}

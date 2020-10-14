@@ -1,0 +1,249 @@
+@media(max-width:1600px){
+
+}
+@media (max-width: 1440px) {
+  .card-img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 1422px) {
+  .top-nav {
+    font-size: 1.2rem;
+  }
+  .marker-hit {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    padding: 8px;
+}
+  .marker-hot{
+    width: 40px;
+    height: 40px;
+  }
+  .slider {
+    margin: 190px 0 50px 0;
+  }
+  .left-menu-list__item {
+    margin-right: 30px;
+  }
+  .left-menu-list__item:first-child {
+    margin-left: 50px;
+  }
+  .menu-list__item {
+    font-size: 1.2rem;
+  }
+  .logo{
+    width: 230px;
+    height: 100px;
+  }
+  .map{
+    top: 185px;
+  }
+  /* .menu-item__title {
+    font-size: 1.2rem;
+  } */
+  /* h1 {
+    font-size: 2.5rem;
+  /* } */
+  /* .subtitle {
+    font-size: 1.5rem;
+  } */ 
+  .details{
+    /* font-size: 1.2vw; */
+    max-width: 150px;
+  }
+}
+
+@media (max-width:1180px){
+  .minus-unit, .plus-unit {
+    padding: 0 5px 0 5px;
+  }
+  .logo{
+    width: 200px;
+    height: 80px;
+  }
+  .busket{
+    margin-right: 15px;
+  }
+  .mobile{
+    margin-right: 20px;
+  }
+  .map{
+    top: 165px;
+  }
+  .slide-text {
+    padding-left: 20px;
+  }
+  .advantages-text {
+    font-size: 1.2rem;
+  }
+  .login{
+    padding: 10px;
+  }
+  .busket{
+    padding: 8px;
+  }
+  .mobile-img{
+    margin-right: 10px;
+  }
+  /* .price {
+    font-size: 2vw;
+  }  */
+  .card-weight {
+    font-size: 1.3vw;
+  }
+  /* .number{
+    font-size: 13px;
+  } */
+  .top-nav {
+    font-size: 1.5vw;
+  }
+  .menu-list__item {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 1100px){
+  /* .price {
+    font-size: 1.5rem;
+  }  */
+  /* .card-weight {
+    font-size: 1rem;
+  } */
+  .add-unit {
+    font-size: 18px;
+  }
+  .left-menu-list__item {
+    margin-right: 15px;
+}
+  .to-busket{
+    padding: 7px 10px;
+  }
+  .card-img {
+    height: 180px;
+  } 
+  .card-name{
+    max-width: 240px;
+  }
+  .login{
+    padding: 7px;
+  }
+  .login-img{
+    width: 26px;
+  }
+  .busket-img{
+    width: 26px;
+  }
+  .mobile-img{
+    width: 26px;
+  }
+  .busket{
+    margin-right: 10px;
+    padding: 4px;
+  }
+  .left-menu-list__item:first-child {
+    margin-left: 20px;
+  }
+  .advantages-inner {
+
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .advantages-item:nth-child(1) {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1;
+    margin-left: 0;
+  }
+  
+  .advantages-item:nth-child(2) {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-right: 0;
+  }
+  
+  .advantages-item:nth-child(3) {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-left: 0;
+  }
+  
+  .advantages-item:nth-child(4) {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-column: 4;
+    margin-right: 0;
+  }
+  .menu-item__img {
+    min-height: 15vh;
+  }
+  .menu-item__title{
+    padding: 5px 5px 5px 10px;
+  }
+  .map{
+    top: 150px;
+  }
+  .inst, .vk, .fb {
+    width: 20px;
+    height: 20px;
+  }
+  .white-logo{
+    width: 100px;
+  }
+}
+@media (max-width: 877px){
+  .advantages-item:nth-child(1){
+    grid-column: 1/3;
+  }
+  .advantages-item:nth-child(2){
+    grid-column: 3/5;
+    justify-self: center;
+  }
+  .advantages-item:nth-child(3){
+    grid-column: 1/3;
+  }
+  .advantages-item:nth-child(4){
+    grid-column: 3/5;
+  }
+  .slider {
+    margin: 160px 0 50px 0;
+  }
+  .card-name {
+    max-width: 150px;
+  }
+  .hits-inner .slick-arrow {
+    height: 35px;
+    width: 27px;
+  }
+  .advantages-text {
+    max-width: 160px;
+    }
+    .hits-inner .slick-arrow.slick-prev {
+      left: -30px;
+    }
+    .hits-inner .slick-arrow.slick-next {
+      right: 0;
+    }
+    .wrapper-2{
+      padding-left: 30px;
+    }
+  }
+@media (max-width:768px){
+  .map-png{
+    display: none;
+  }
+  .map{
+    background: url(../img/map2.png);
+  }
+  .wrapper-2{
+    max-width: 100%;
+  }
+}
